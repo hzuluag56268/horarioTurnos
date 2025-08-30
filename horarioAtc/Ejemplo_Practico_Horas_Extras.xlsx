@@ -1,0 +1,159 @@
+# Ejemplo Práctico - Sistema de Horas Extras
+
+## Estructura de Datos de Ejemplo
+
+### Hoja: 1_QUINC
+| Trabajador | Día 1 | Día 2 | Día 3 | Día 4 | Día 5 |
+|------------|-------|-------|-------|-------|-------|
+| Juan Pérez | Cant Suma una hora extra | Turno Normal | Cant Suma una hora extra | | |
+| María López | | Cant Suma dos horas extra | | Cant Suma una hora extra | |
+| Carlos Ruiz | Turno Normal | | Cant Suma una hora extra | | Cant Suma dos horas extra |
+
+### Hoja: HORE_MES
+| Trabajador | 5am | 6am | 7am | Total |
+|------------|-----|-----|-----|-------|
+| Juan Pérez | 2 | 0 | 0 | 2 |
+| María López | 0 | 3 | 0 | 3 |
+| Carlos Ruiz | 0 | 0 | 3 | 3 |
+
+## Fórmulas Específicas para tu Caso
+
+### En la celda B2 de HORE_MES (para Juan Pérez, grupo 5am):
+```excel
+=SUMPRODUCTO(
+  (1_QUINC!$A:$A=A2) * 
+  (1_QUINC!$B:$Z="Cant Suma una hora extra") * 
+  1
+)
+```
+
+### Para contar turnos de "dos horas extra":
+```excel
+=SUMPRODUCTO(
+  (1_QUINC!$A:$A=A2) * 
+  (1_QUINC!$B:$Z="Cant Suma dos horas extra") * 
+  2
+)
+```
+
+### Fórmula combinada para total de horas extras:
+```excel
+=SUMPRODUCTO(
+  (1_QUINC!$A:$A=A2) * 
+  (1_QUINC!$B:$Z="Cant Suma una hora extra") * 
+  1
+) + 
+SUMPRODUCTO(
+  (1_QUINC!$A:$A=A2) * 
+  (1_QUINC!$B:$Z="Cant Suma dos horas extra") * 
+  2
+)
+```
+
+## Configuración de Grupos de Columnas
+
+### Mapeo de Columnas a Grupos:
+- Columnas B-H (Días 1-7): Grupo "5am"
+- Columnas I-O (Días 8-14): Grupo "6am"  
+- Columnas P-V (Días 15-21): Grupo "7am"
+- Columnas W-AC (Días 22-28): Grupo "8am"
+
+## Macro VBA Personalizada para tu Estructura
+
+```vba
+Private Sub Worksheet_Change(ByVal Target As Range)
+    ' Solo procesar cambios en las columnas de turnos (B:AC)
+    If Not Intersect(Target, Range("B:AC")) Is Nothing Then
+        Application.EnableEvents = False
+        
+        Dim trabajador As String
+        trabajador = Cells(Target.Row, 1).Value
+        
+        Dim turno As String
+        turno = Target.Value
+        
+        Call ActualizarHorasExtras(trabajador, turno, Target.Column)
+        
+        Application.EnableEvents = True
+    End If
+End Sub
+
+Sub ActualizarHorasExtras(trabajador As String, turno As String, columna As Long)
+    Dim wsHoreMes As Worksheet
+    Set wsHoreMes = ThisWorkbook.Worksheets("HORE_MES")
+    
+    ' Buscar trabajador en HORE_MES
+    Dim filaTrabajador As Long
+    filaTrabajador = 0
+    For i = 1 To 1000
+        If wsHoreMes.Cells(i, 1).Value = trabajador Then
+            filaTrabajador = i
+            Exit For
+        End If
+    Next i
+    
+    If filaTrabajador = 0 Then Exit Sub
+    
+    ' Determinar grupo de columnas
+    Dim grupoColumnas As String
+    Select Case columna
+        Case 2 To 8
+            grupoColumnas = "5am"
+        Case 9 To 15
+            grupoColumnas = "6am"
+        Case 16 To 22
+            grupoColumnas = "7am"
+        Case 23 To 29
+            grupoColumnas = "8am"
+        Case Else
+            Exit Sub
+    End Select
+    
+    ' Buscar columna del grupo en HORE_MES
+    Dim columnaGrupo As Long
+    columnaGrupo = 0
+    For j = 1 To 50
+        If wsHoreMes.Cells(1, j).Value = grupoColumnas Then
+            columnaGrupo = j
+            Exit For
+        End If
+    Next j
+    
+    If columnaGrupo = 0 Then Exit Sub
+    
+    ' Calcular horas extras
+    Dim horasExtras As Integer
+    Select Case turno
+        Case "Cant Suma una hora extra"
+            horasExtras = 1
+        Case "Cant Suma dos horas extra"
+            horasExtras = 2
+        Case "Cant Suma tres horas extra"
+            horasExtras = 3
+        Case Else
+            horasExtras = 0
+    End Select
+    
+    ' Actualizar total en HORE_MES
+    If horasExtras > 0 Then
+        wsHoreMes.Cells(filaTrabajador, columnaGrupo).Value = _
+            wsHoreMes.Cells(filaTrabajador, columnaGrupo).Value + horasExtras
+    End If
+End Sub
+```
+
+## Pasos de Implementación:
+
+1. **Abrir tu archivo Excel**
+2. **Presionar Alt + F11** para abrir VBA
+3. **Hacer doble clic en la hoja 1_QUINC** en el explorador de proyectos
+4. **Copiar y pegar el código VBA** en la ventana que se abre
+5. **Guardar como .xlsm** (habilitar macros)
+6. **Probar** ingresando un turno en 1_QUINC y verificar que se actualice en HORE_MES
+
+## Notas Importantes:
+
+- **Asegúrate de que los nombres de trabajadores sean exactamente iguales** en ambas hojas
+- **Los nombres de los turnos deben coincidir exactamente** con los del código VBA
+- **Las columnas de grupos en HORE_MES deben llamarse exactamente** "5am", "6am", etc.
+- **Habilita las macros** en Excel para que funcione la automatización 
