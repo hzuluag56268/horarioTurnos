@@ -1,0 +1,55 @@
+{
+  "empleados": {
+    "PHD": {
+      "sabados_totales": 1,
+      "ultimo_sabado": "2024-07",
+      "deuda_sabados": 0
+    },
+    "HLG": {
+      "sabados_totales": 1,
+      "ultimo_sabado": "2024-07",
+      "deuda_sabados": 0
+    },
+    "MEI": {
+      "sabados_totales": 1,
+      "ultimo_sabado": "2024-07",
+      "deuda_sabados": 0
+    },
+    "VCM": {
+      "sabados_totales": 1,
+      "ultimo_sabado": "2024-07",
+      "deuda_sabados": 0
+    },
+    "ROP": {
+      "sabados_totales": 0,
+      "ultimo_sabado": null,
+      "deuda_sabados": 0
+    },
+    "ECE": {
+      "sabados_totales": 0,
+      "ultimo_sabado": null,
+      "deuda_sabados": 0
+    },
+    "WEH": {
+      "sabados_totales": 0,
+      "ultimo_sabado": null,
+      "deuda_sabados": 0
+    },
+    "DFB": {
+      "sabados_totales": 0,
+      "ultimo_sabado": null,
+      "deuda_sabados": 0
+    },
+    "MLS": {
+      "sabados_totales": 0,
+      "ultimo_sabado": null,
+      "deuda_sabados": 0
+    },
+    "FCE": {
+      "sabados_totales": 0,
+      "ultimo_sabado": null,
+      "deuda_sabados": 0
+    }
+  },
+  "meses": {}
+}

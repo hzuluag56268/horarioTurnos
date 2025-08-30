@@ -1,0 +1,198 @@
+{
+  "JIS": [
+    {
+      "fecha": "2025-07-17",
+      "turno_requerido": "VACA"
+    },
+    {
+      "fecha": "2025-07-18",
+      "turno_requerido": "VACA"
+    },
+    {
+      "fecha": "2025-07-19",
+      "turno_requerido": "VACA"
+    },
+    {
+      "fecha": "2025-07-20",
+      "turno_requerido": "VACA"
+    },
+    {
+      "fecha": "2025-07-21",
+      "turno_requerido": "VACA"
+    },
+    {
+      "fecha": "2025-07-22",
+      "turno_requerido": "VACA"
+    },
+    {
+      "fecha": "2025-07-23",
+      "turno_requerido": "VACA"
+    },
+    {
+      "fecha": "2025-07-24",
+      "turno_requerido": "VACA"
+    },
+    {
+      "fecha": "2025-07-25",
+      "turno_requerido": "VACA"
+    },
+    {
+      "fecha": "2025-07-26",
+      "turno_requerido": "VACA"
+    },
+    {
+      "fecha": "2025-07-27",
+      "turno_requerido": "VACA"
+    },
+    {
+      "fecha": "2025-07-28",
+      "turno_requerido": "VACA"
+    },
+    {
+      "fecha": "2025-07-29",
+      "turno_requerido": "VACA"
+    },
+    {
+      "fecha": "2025-07-30",
+      "turno_requerido": "VACA"
+    }
+  ],
+  "AFG": [
+    {
+      "fecha": "2025-07-01",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-02",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-03",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-04",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-05",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-06",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-07",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-08",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-09",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-10",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-11",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-12",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-13",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-14",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-15",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-16",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-17",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-18",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-19",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-20",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-21",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-22",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-23",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-24",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-25",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-26",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-27",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-28",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-29",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-30",
+      "turno_requerido": "COME"
+    },
+    {
+      "fecha": "2025-07-31",
+      "turno_requerido": "COME"
+    }
+  ],
+  "YIS": [
+    {
+      "fecha": "2025-07-16",
+      "turno_requerido": "DESC"
+    }
+  ],
+  "HLG": [
+    {
+      "fecha": "2025-07-18",
+      "turno_requerido": "CMED"
+    }
+  ]
+}

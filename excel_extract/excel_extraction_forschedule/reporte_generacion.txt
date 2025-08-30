@@ -1,0 +1,18 @@
+REPORTE DE GENERACIÓN DE TURNOS
+========================================
+
+Mes: 6/2025
+Empleados procesados: 10
+Días del mes: 30
+Columnas generadas: 32
+
+PRIMERAS 5 FILAS:
+   No. SIGLA SUN-01 MON-02 TUE-03 WED-04 THU-05 FRI-06 SAT-07 SUN-08 MON-09 TUE-10 WED-11 THU-12 FRI-13 SAT-14 SUN-15 MON-16 TUE-17 WED-18 THU-19 FRI-20 SAT-21 SUN-22 MON-23 TUE-24 WED-25 THU-26 FRI-27 SAT-28 SUN-29 MON-30
+0    1   PHD          DESC   TROP                                      DESC   TROP                                      DESC   TROP                                      DESC   TROP                                      DESC
+1    2   HLG                                                                                                                                                                                                                  
+2    3   MEI                                                                                                                                                                                                                  
+3    4   VCM                                                                                                                                                                                                                  
+4    5   ROP                                                                                                                                                                                                                  
+
+COLUMNAS:
+['No.', 'SIGLA', 'SUN-01', 'MON-02', 'TUE-03', 'WED-04', 'THU-05', 'FRI-06', 'SAT-07', 'SUN-08', 'MON-09', 'TUE-10', 'WED-11', 'THU-12', 'FRI-13', 'SAT-14', 'SUN-15', 'MON-16', 'TUE-17', 'WED-18', 'THU-19', 'FRI-20', 'SAT-21', 'SUN-22', 'MON-23', 'TUE-24', 'WED-25', 'THU-26', 'FRI-27', 'SAT-28', 'SUN-29', 'MON-30']

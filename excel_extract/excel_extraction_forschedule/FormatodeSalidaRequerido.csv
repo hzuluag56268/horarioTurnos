@@ -1,0 +1,38 @@
+Unnamed: 0,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13,Unnamed: 14,Unnamed: 15,Unnamed: 16,Unnamed: 17,Unnamed: 18,Unnamed: 19,Unnamed: 20,Unnamed: 21,Unnamed: 22,Unnamed: 23,Unnamed: 24,Unnamed: 25,Unnamed: 26,Unnamed: 27,Unnamed: 28,Unnamed: 29,Unnamed: 30,Unnamed: 31,Unnamed: 32,Unnamed: 33,Unnamed: 34,Unnamed: 35,Unnamed: 36,Unnamed: 37,Unnamed: 38,Unnamed: 39,Unnamed: 40
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,FORMATO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,PROGRAMACIÓN DE TURNOS ATC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,Clave: MSER 10.0-XX-XXX,,,,,,,,Versión-:2,,,,,,,,,,,Fecha de aprobación: DD/MM/AAAA,,,,,,,,,,,,,,,,,
+Periodo: Mensual,,,,,,,,,,,,Mes: JUNIO,,,,,,,,,,,Año: 2025,,,,,,,,,,,,,,,,,
+NOMBRE DEPENDENCIA ATS: TORRE DE CONTROL - APROXIMACION CUCUTA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+No.,SIGLA ATCO,WED-16,,THU-17,,FRI-18,,SAT-19,,SUN-20,,MON-21,,TUE-22,,WED-23,,THU-24,,FRI-25,,SAT-26,,SUN-27,,MON-28,,TUE-29,,WED-30,,THU-31,,SIGLAATCO,,,,FRI-01,,SAT-02
+1,PHD,MCOR,,MCOR,,MCOR,,TROP,,,,MCOR,,DESC,,MCOR,,MCOR,,MCOR,,TROP,,,,DESC,,MCOR,,MCOR,,MCOR,,PHD,,,,MCOR,,TROP
+2,HLG,,,TROP,,,,TAST,SLN3,,,,,,,DESC,,,,,,TROP,,,,,,DESC,,,,TROP,,HLG,,,,,,
+3,MEI,,,TROP,,,,,,,,,,DESC,,,,,,,,TROP,,,,,,DESC,,,,TROP,,MEI,,,,,,
+4,VCM,,,,,,,TROP,,,,DESC,,,,,,,,TROP,,,,,,DESC,,,,,,,,VCM,,,,TROP,,
+5,ROP,,,,,TROP,,,,,,,,,,DESC,,TROP,,,,,,,,,,,,DESC,,,,ROP,,,,,,TROP
+6,ECE,DESC,,,,,,TROP,,,,,,DESC,,,,,,TROP,,,,,,,,,,DESC,,,,ECE,,,,,,TROP
+7,WEH,,,TROP,,,,,,,,,,,,DESC,,,,,,TROP,,,,DESC,,,,,,,,WEH,,,,TROP,,
+8,DFB,DESC,,,,TROP,,,,,,,,,,DESC,,,,,,TROP,,,,,,,,DESC,,,,DFB,,,,TROP,,
+9,MLS,,,,,,,TROP,,,,,,DESC,,,,,,,,TROP,,,,,,,,,,DESC,,MLS,,,,,,TROP
+10,FCE,,,,,TROP,,,,,,DESC,,,,,,,,TROP,,,,,,DESC,,,,,,,,FCE,,,,,,TROP
+11,JBV,,,TROP,,,,,,,,DESC,,,,,,TROP,,,,,,,,,,DESC,,,,TROP,,JBV,,,,,,
+12,GMT,SIND,,,,,,TROP,,,,DESC,,,,SIND,,,,TROP,,,,,,DESC,,,,SIND,,,,GMT,,,,,,TROP
+13,BRS,,,TROP,,,,,,,,,,DESC,,,,,,,,TROP,,,,,,,,,,DESC,,BRS,,,,TROP,,
+14,HZG,,,MDBM,,,,TROP,,,,DESC,,,,,,MDBM,,TROP,,,,,,,,DESC,,,,TROP,,HZG,,,,MDBM,,
+15,JIS,VACA,,VACA,,VACA,,VACA,,VACA,,VACA,,VACA,,VACA,,VACA,,VACA,,VACA,,VACA,,VACA,,VACA,,VACA,,VACA,,JIS,,,,VACA,,
+16,CDT,DESC,,,,,,TROP,,,,,,DESC,,,,TROP,,,,,,,,DESC,,,,,,,,CDT,,,,TROP,,
+17,WGG,,,TROP,,,,,,,,DESC,,,,,,TROP,,,,,,,,,,DESC,,,,,,WGG,,,,,,TROP
+18,GCE,SIND,,,,TROP,,,,,,,,DESC,,SIND,,,,TROP,,,,,,DESC,,,,SIND,,,,GCE,,,,,,TROP
+19,YIS,,,,,TROP,,,,,,,,,,DESC,,,,,,TROP,,BLPT,,,,,,DESC,,,,YIS,,,,TROP,,
+20,MAQ,DESC,,TROP,,,,,,,,,,DESC,,,,,,,,TROP,,,,,,DESC,,,,,,MAQ,,,,TROP,,
+21,DJO,,,,,TROP,,,,,,DESC,,,,,,TROP,,,,,,,,,,,,DESC,,,,DJO,,,,,,TROP
+22,AFG,COME,,COME,,COME,,COME,,COME,,COME,,COME,,COME,,COME,,COME,,COME,,COME,,COME,,COME,,COME,,COME,,AFG,,,,,,
+23,JLF,DESC,,,,,,TROP,,,,,,DESC,,,,TROP,,,,,,,,,,DESC,,,,,,JLF,,,,,,TROP
+24,JMV,,,,,,,TROP,,,,DESC,,,,,,,,TROP,,,,,,DESC,,,,,,TROP,,JMV,,,,,,
+,,,,,,,,,,,,,,,,____________________________________________________,,,,,,,,,,,,,,,,,,,,,,,,
+Coordinador Grupo Regional Servicios de Tránsito Aéreo,,,,,,,,,,,,,,,,DIRECTOR AERONAUTICO REGIONAL,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,14,,13,,15,,13,,,,13,,13,,14,,14,,14,,13,,,,14,,14,,14,,14,,,,,,14,,14
+,,2,,1,,2,,1,,,,2,,2,,2,,2,,2,,2,,,,2,,2,,2,,2,,,,,,2,,2
+,,12,,12,,13,,12,,,,11,,11,,12,,12,,12,,11,,,,12,,12,,12,,12,,,,,,12,,12
