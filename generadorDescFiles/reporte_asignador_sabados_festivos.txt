@@ -1,0 +1,49 @@
+turno	trabajador	fecha_original	fecha_final(DOW-MM)	columna	tipo	motivo
+6RT	DJO	2025-09-27			no_asignado	Sin fecha viable (ocupado o restricciones)
+6TT	JMV	2025-09-27			no_asignado	Sin fecha viable (ocupado o restricciones)
+6TT	AFG	2025-09-06	SAT-06	7	blanda	Asignado aceptando violación blanda (BLPTD/BANTD al día siguiente)
+6TT	YIS	2025-09-20	SAT-20	21	blanda	Asignado aceptando violación blanda (BLPTD/BANTD al día siguiente)
+3	JIS	2025-09-13	SAT-27	28	intercambio	
+3	MLS	2025-09-27	SAT-06	7	intercambio	
+3	WGG	2025-09-06	SAT-13	14	intercambio	
+3D	DFB	2025-09-28	SUN-07	8	intercambio	
+3D	FCE	2025-09-07	SUN-28	29	intercambio	
+3D	JIS	2025-09-21	SUN-14	15	intercambio	
+3D	WGG	2025-09-14	SUN-21	22	intercambio	
+6R	BRS	2025-09-20	SAT-13	14	intercambio	
+6R	DFB	2025-09-13	SAT-27	28	intercambio	
+6R	JIS	2025-09-27	SAT-06	7	intercambio	
+6R	WGG	2025-09-06	SAT-20	21	intercambio	
+6RT	AFG	2025-09-06	SAT-20	21	intercambio	
+6RT	JMV	2025-09-20	SAT-06	7	intercambio	
+6T	FCE	2025-09-13	SAT-20	21	intercambio	
+6T	GCE	2025-09-27	SAT-06	7	intercambio	
+6T	HLG	2025-09-06	SAT-13	14	intercambio	
+6T	HZG	2025-09-20	SAT-27	28	intercambio	
+BANTD	DFB	2025-09-21	SUN-14	15	intercambio	
+BANTD	GMT	2025-09-28	SUN-07	8	intercambio	
+BANTD	JBV	2025-09-07	SUN-28	29	intercambio	
+BANTD	MLS	2025-09-14	SUN-21	22	intercambio	
+BLPTD	AFG	2025-09-07	SUN-28	29	intercambio	
+BLPTD	JLF	2025-09-28	SUN-07	8	intercambio	
+BLPTD	JMV	2025-09-14	SUN-21	22	intercambio	
+BLPTD	YIS	2025-09-21	SUN-14	15	intercambio	
+NANRD	CDT	2025-09-21	SUN-14	15	intercambio	
+NANRD	HZG	2025-09-07	SUN-21	22	intercambio	
+NANRD	JIS	2025-09-14	SUN-28	29	intercambio	
+NANRD	WGG	2025-09-28	SUN-07	8	intercambio	
+NANTD	ECE	2025-09-21	SUN-28	29	intercambio	
+NANTD	HLG	2025-09-07	SUN-14	15	intercambio	
+NANTD	HZG	2025-09-28	SUN-07	8	intercambio	
+NANTD	JBV	2025-09-14	SUN-21	22	intercambio	
+NLPRD	AFG	2025-09-07	SUN-21	22	intercambio	
+NLPRD	DJO	2025-09-28	SUN-07	8	intercambio	
+NLPRD	MAQ	2025-09-21	SUN-14	15	intercambio	
+NLPRD	YIS	2025-09-14	SUN-28	29	intercambio	
+NLPTD	AFG	2025-09-07	SUN-14	15	intercambio	
+NLPTD	JLF	2025-09-14	SUN-28	29	intercambio	
+NLPTD	MAQ	2025-09-28	SUN-07	8	intercambio	
+3	BRS	2025-09-20	SAT-20	21	directa	
+6RT	MAQ	2025-09-13	SAT-13	14	directa	
+6TT	DJO	2025-09-13	SAT-13	14	directa	
+NLPTD	YIS	2025-09-21	SUN-21	22	directa	
